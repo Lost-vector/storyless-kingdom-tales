@@ -10,3 +10,4 @@ backend/target
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
+backend/dependency-reduced-pom.xml
