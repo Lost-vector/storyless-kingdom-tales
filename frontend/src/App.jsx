@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-import BookViewer from './components/Bookviewer'
+import BookViewer from './components/BookViewer'
 
 const API_URL = 'https://wqqnpfckoypqu44uguqfmjaqxq0emujj.lambda-url.eu-west-3.on.aws'
 const chapters = [1, 2, 3]
