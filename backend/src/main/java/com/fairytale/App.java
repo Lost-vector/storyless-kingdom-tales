@@ -22,7 +22,7 @@ public class App implements RequestHandler<Map<String, Object>, Map<String, Obje
         String chapterNumber = rawPath.replace("/chapters/", "");
 
         try {
-            String key = "chapters/chapter-" + chapterNumber + ".json";
+            String key = "content/chapters/chapter-" + chapterNumber + ".json";
             InputStream objectData = s3.getObject(GetObjectRequest.builder()
                     .bucket(CONTENT_BUCKET)
                     .key(key)
