@@ -29,7 +29,7 @@ function Page({ page }) {
   if (page.type === 'image') {
     return (
       <img
-        src={`${API_URL}/content/images/${page.content}`}
+        src={`/content/images/${page.content}`}
         alt="story page"
         style={{ maxWidth: '100%', maxHeight: '400px' }}
       />
